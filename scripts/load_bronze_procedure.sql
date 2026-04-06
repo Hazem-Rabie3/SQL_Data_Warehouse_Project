@@ -10,9 +10,11 @@ Description:
     - Loads data for both CRM and ERP source systems.
     - Tracks and prints the execution time for each table and the total process.
     - Includes TRY...CATCH block for error handling.
-*/
 
-EXEC bronze.load_bronze
+	How to use:
+		EXEC bronze.load_bronze
+
+*/
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
